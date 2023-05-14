@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Pratik Pol</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/606fe63c24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/RayG --filtered.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Cyber Security Enthusiast</p>
+            <h1>Hi, I'm <span>Pratik Pol</span> <br> Student at LTCE, Navi Mumbai</h1>
+        </div>
+    </div>
+
+</div>
+<!-----------------about--------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Profile Pic -orange bg -295 KB.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <P>• Strong in design and integration with intuitive problem-solving skills. <br>• Passionate about implementing and launching new projects. <br>• Excellent in Programming in C, Python, JavaScript (JS), and MySQL. <br>• Proficient in Full Stack Web Development, Cloud Computing (Google Cloud), Computer Networking, Cyber Security, Network Penetration Testing. <br>• Interest areas includes in Web Development, Cyber Security, Ethical Hacking, Network Penetration.
+                </P>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Cyber Security</span><br>Ethical Hacker and Penetration Tester</li>
+                        <li><span>Web Development</span><br>Web App Developer</li>
+                        <li><span>Blockchain Development</span><br>Solidity Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-Current</span><br>Penetration Tester at XYZ Company</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>Lokmanya Tilak College of Engineering, Navi Mumbai</li>
+                        <li><span>2020</span><br>St. John The Baptist Jr. College, Thane</li>
+                        <li><span>2018</span><br>St. John The Baptist High School, Thane</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------services----------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <P>
+                    Design, Development, Optimization & Maintenance - complete solutions at attractive prices.
+                </P>
+                <a href="#contact">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <h2>Network Penetration Testing</h2>
+                <P>
+                    Get a real-world look at how attackers could exploit your vulnerabilities and guidance on how to stop them—with my pentesting services.
+                </P>
+                <a href="#contact">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!---------portfolio------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>
+                        Made a Social Media App
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>
+                        Made an Music App
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg" alt="">
+                <div class="layer">
+                    <h3>Weather Forecasting App</h3>
+                    <p>
+                        Made a Weather Forecasting App
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <P><i class="fa-solid fa-paper-plane"></i> pratikpol0602@gmail.com</P>
+                <P><i class="fa-solid fa-square-phone"></i> +91-9987555659</P>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/pratikpol06/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/RayG_XD"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/_pratik_pol/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pratikpol/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/RayG-XD"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="files/Pratik Pol Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <!-- <span id="msg">Hello</span> --->
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Pratik Pol. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
